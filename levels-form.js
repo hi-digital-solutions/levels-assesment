@@ -1,21 +1,13 @@
 
-var form = FormApp.create('DS Levels Assessment');
+var formId = '1MRjM3YSFTB3xtxJ1s1uRn1_O7p9NWpJXVwRD-paX6Xc';
+var form = FormApp.openById(formId);
+form.getItems().map(form.deleteItem);
 
 function addQuestion(questionText) {
-    var section = form.addPageBreakItem();
-    section.setHelpText(questionText)
-    form.addScaleItem()
-        .setTitle('... individual work')
-        .setBounds(1, 5)
-        .setLabels('Strongly Disagree', 'Strongly Agree')
-    form.addScaleItem()
-        .setTitle('... team work and dynamics')
-        .setBounds(1, 5)
-        .setLabels('Strongly Disagree', 'Strongly Agree')
-    form.addScaleItem()
-        .setTitle('... organizational')
-        .setBounds(1, 5)
-        .setLabels('Strongly Disagree', 'Strongly Agree')
+    form.addGridItem();
+        item.setTitle(questionText)
+        .setRows(['For individual work', 'At the team level', 'At the organizational level'])
+        .setColumns(['Almost Never', 'Seldom', 'Sometimes', 'Often', 'Almost Always']);
 }
 
 function main() {

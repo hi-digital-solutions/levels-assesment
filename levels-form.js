@@ -4,8 +4,8 @@ var form = FormApp.openById(formId);
 form.getItems().map(form.deleteItem);
 
 function addQuestion(questionText) {
-    form.addGridItem();
-        item.setTitle(questionText)
+    form.addGridItem()
+        .setTitle(questionText)
         .setRows(['For individual work', 'At the team level', 'At the organizational level'])
         .setColumns(['Almost Never', 'Seldom', 'Sometimes', 'Often', 'Almost Always']);
 }

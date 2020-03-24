@@ -10,6 +10,18 @@ function addQuestion(questionText) {
         .setColumns(['Almost Never', 'Seldom', 'Sometimes', 'Often', 'Almost Always']);
 }
 
+function addSingleQuestion(questionText) {
+    var item = form.addMultipleChoiceItem();
+    item.setTitle(questionText)
+        .setChoices([
+            item.createChoice('Almost Never'),
+            item.createChoice('Seldom'),
+            item.createChoice('Sometimes'),
+            item.createChoice('Often'),
+            item.createChoice('Almost Always')
+         ]);
+}
+
 function main() {
     var item = form.addListItem();
     item.setTitle('Who are you evaluating?')
@@ -26,9 +38,9 @@ function main() {
             item.createChoice('Kevin Price')
          ])
     addQuestion('They leave things better than they found them');
-    addQuestion('Others come to them for direction or guidance');
-    addQuestion('Others enjoy working with them, and want them on their team'); // Does this make sense at individual/team/org?
-    addQuestion('They demonstrate improvement'); // Does this make sense at i/t/o?
+    addQuestion('Others seek them out for direction or guidance');
+    addSingleQuestion('Others enjoy working with them, and want them on their team'); 
+    addQuestion('They demonstrate improvement'); 
     addQuestion('They bring the right people into the organization'); // participating in interviews, working on interview process, growing org culture
     addQuestion('They reframe problems to come up with better solutions');
     addQuestion('They deliver value quickly, and maximize work not done');

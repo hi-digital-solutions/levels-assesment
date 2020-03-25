@@ -37,7 +37,13 @@ function main() {
             item.createChoice('Erica Brammer'),
             item.createChoice('Emily Coffin'),
             item.createChoice('Kevin Price')
-         ])
+         ]);
+    addSingleQuestion(
+        'Others enjoy working with them, and want them on their team'
+    ); 
+    addSingleQuestion(
+        'They have conversations at the right level of detail, and bring clarity to discussions',
+    );
     addQuestion(
         'They leave things better than they found them',
         `Examples:  
@@ -60,9 +66,6 @@ function main() {
         Org - Guidance about cross-cutting concerns - "How should this project interact with master data?", "What outcomes do we want from Initiation?"
         `
     );
-    addSingleQuestion(
-        'Others enjoy working with them, and want them on their team'
-    ); 
     addQuestion(
         'They demonstrate improvement',
         `Examples:
@@ -118,9 +121,6 @@ function main() {
 
         Org - Levels, Soliciting feedback about DS rolling into HISC
         `     
-    );
-    addSingleQuestion(
-        'They have conversations at the right level of detail, and bring clarity to discussions',
     );
     addQuestion(
         'They think about total cost of ownership, and optimize for overall value',

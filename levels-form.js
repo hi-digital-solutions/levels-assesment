@@ -1,3 +1,23 @@
+var choices = [
+    'Almost Never', 
+    'Seldom', 
+    'Sometimes', 
+    'Often', 
+    'Almost Always'
+];
+
+var names = [
+    'Matt Schouten',
+    'Ian Firkin',
+    'Kourtney Reynolds',
+    'Logan Koch',
+    'Dustin Roszell',
+    'Rob Miller',
+    'Paul Roub',
+    'Erica Brammer',
+    'Emily Coffin',
+    'Kevin Price' 
+];
 
 var formId = '1MRjM3YSFTB3xtxJ1s1uRn1_O7p9NWpJXVwRD-paX6Xc';
 var form = FormApp.openById(formId);
@@ -8,36 +28,20 @@ function addQuestion(questionText, helpText = '') {
         .setTitle(questionText)
         .setHelpText(helpText)
         .setRows(['At the individual level', 'At the team level', 'At the organizational level'])
-        .setColumns(['Almost Never', 'Seldom', 'Sometimes', 'Often', 'Almost Always']);
+        .setColumns(choices);
 }
 
 function addSingleQuestion(questionText) {
     var item = form.addMultipleChoiceItem();
     item.setTitle(questionText)
-        .setChoices([
-            item.createChoice('Almost Never'),
-            item.createChoice('Seldom'),
-            item.createChoice('Sometimes'),
-            item.createChoice('Often'),
-            item.createChoice('Almost Always')
-         ]);
+        .setChoices(choices.map(x => item.createChoice(x)));
 }
 
 function main() {
     var item = form.addListItem();
     item.setTitle('Who are you evaluating?')
-        .setChoices([
-            item.createChoice('Matt Schouten'),
-            item.createChoice('Ian Firkin'),
-            item.createChoice('Kourtney Reynolds'),
-            item.createChoice('Logan Koch'),
-            item.createChoice('Dustin Roszell'),
-            item.createChoice('Rob Miller'),
-            item.createChoice('Paul Roub'),
-            item.createChoice('Erica Brammer'),
-            item.createChoice('Emily Coffin'),
-            item.createChoice('Kevin Price')
-         ]);
+        .setChoices(names.map(x => item.createChoice(x)));
+
     addSingleQuestion(
         'Others enjoy working with them, and want them on their team'
     ); 
@@ -88,7 +92,7 @@ function main() {
 
         Org - Identifying gaps within the org (hiring Erica), improving the hiring process
         `     
-    ); // participating in interviews, working on interview process, growing org culture
+    ); 
     addQuestion(
         'They reframe problems to come up with better solutions',
         `Examples:

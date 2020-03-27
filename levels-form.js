@@ -43,7 +43,7 @@ function main() {
         .setChoices(names.map(x => item.createChoice(x)));
 
     addSingleQuestion(
-        'Others enjoy working with them, and want them on their team'
+        'You enjoy working with them, and want them on your team'
     ); 
     addSingleQuestion(
         'They have conversations at the right level of detail, and bring clarity to discussions',
@@ -60,7 +60,7 @@ function main() {
         `
     );
     addQuestion(
-        'Others seek them out for direction or guidance',
+        'They are sought out for direction or guidance',
         `Examples:
         
         Individual - Guidance about specific work - "How do I send an email in outlook?", "How did you come up with your problem statement in Initiation?"
@@ -160,7 +160,7 @@ function main() {
         `     
     );
     addQuestion(
-        'They can manage time and logistics',
+        'They manage time and logistics',
         `Examples:
         
         Individual - Being on time to meetings, providing agendas/documents ahead of time, filling out timesheets, communicating PTO

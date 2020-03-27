@@ -19,6 +19,12 @@ var names = [
     'Kevin Price' 
 ];
 
+var levels = [
+    'At the individual level', 
+    'At the team level', 
+    'At the organizational level'
+];
+
 var formId = '1MRjM3YSFTB3xtxJ1s1uRn1_O7p9NWpJXVwRD-paX6Xc';
 var form = FormApp.openById(formId);
 form.getItems().map(x => form.deleteItem(x));
@@ -27,7 +33,7 @@ function addQuestion(questionText, helpText = '') {
     form.addGridItem()
         .setTitle(questionText)
         .setHelpText(helpText)
-        .setRows(['At the individual level', 'At the team level', 'At the organizational level'])
+        .setRows(levels)
         .setColumns(choices);
 }
 

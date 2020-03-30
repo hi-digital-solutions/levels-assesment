@@ -7,16 +7,16 @@ var choices = [
 ];
 
 var names = [
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***',
-    '***REMOVED***' 
+    'Matt Schouten',
+    'Ian Firkin',
+    'Kourtney Reynolds',
+    'Logan Koch',
+    'Dustin Roszell',
+    'Rob Miller',
+    'Paul Roub',
+    'Erica Brammer',
+    'Emily Coffin',
+    'Kevin Price' 
 ];
 
 var levels = [
@@ -85,7 +85,6 @@ function main() {
         Team - Better cycle time and defect rates, smaller stories, shorter projects
 
         Org - Identifying blind spots in the org, Learning budget/book stipend, monthly financial review, project slicing 
-        
         `
     ); 
     addQuestion(

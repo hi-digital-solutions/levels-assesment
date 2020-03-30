@@ -85,7 +85,6 @@ function main() {
         Team - Better cycle time and defect rates, smaller stories, shorter projects
 
         Org - Identifying blind spots in the org, Learning budget/book stipend, monthly financial review, project slicing 
-        
         `
     ); 
     addQuestion(

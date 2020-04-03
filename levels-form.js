@@ -6,19 +6,6 @@ var choices = [
     'Almost Always'
 ];
 
-var names = [
-    'Matt Schouten',
-    'Ian Firkin',
-    'Kourtney Reynolds',
-    'Logan Koch',
-    'Dustin Roszell',
-    'Rob Miller',
-    'Paul Roub',
-    'Erica Brammer',
-    'Emily Coffin',
-    'Kevin Price' 
-];
-
 var levels = [
     'At the individual level', 
     'At the team level', 
@@ -44,9 +31,9 @@ function addSingleQuestion(questionText) {
 }
 
 function main() {
-    var item = form.addListItem();
-    item.setTitle('Who are you evaluating?')
-        .setChoices(names.map(x => item.createChoice(x)));
+    form.addTextItem()
+        .setTitle('Who are you evaluating? (Please use First and Last name, e.g. "John Doe")')
+        .setRequired(true);
 
     addSingleQuestion(
         'You enjoy working with them, and want them on your team'

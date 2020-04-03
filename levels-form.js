@@ -24,9 +24,10 @@ function addQuestion(questionText, helpText = '') {
         .setColumns(choices);
 }
 
-function addSingleQuestion(questionText) {
-    var item = form.addMultipleChoiceItem();
+function addSingleQuestion(questionText, helpText = '') {
+    item = form.addMultipleChoiceItem();
     item.setTitle(questionText)
+        .setHelpText(helpText)
         .setChoices(choices.map(x => item.createChoice(x)));
 }
 
@@ -36,7 +37,8 @@ function main() {
         .setRequired(true);
 
     addSingleQuestion(
-        'You enjoy working with them, and want them on your team'
+        'You enjoy working with them, and want them on your team',
+        '(Leave this question blank if you are doing a self-assessment)'
     ); 
     addSingleQuestion(
         'They have conversations at the right level of detail, and bring clarity to discussions',

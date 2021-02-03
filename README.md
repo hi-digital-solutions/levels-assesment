@@ -6,10 +6,10 @@ This assessment is a tool to help facilitate discussions about pay and job title
 
 The outcomes we want include: 
 
-*Conversations about pay focus on specific indicators that drive positive results 
-*We can recognize and correct bias due to race, gender, age, or other arbitrary factors 
-*Transparency on how we make pay decisions 
-*A clear path to promotion that can help guide personal improvement efforts 
+*Conversations about pay focus on specific indicators that drive positive results   
+*We can recognize and correct bias due to race, gender, age, or other arbitrary factors   
+*Transparency on how we make pay decisions   
+*A clear path to promotion that can help guide personal improvement efforts   
 
 ## What are we NOT trying to do? 
 

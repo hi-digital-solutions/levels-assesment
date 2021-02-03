@@ -39,17 +39,17 @@ If you’re having trouble deciding which choice makes sense, try writing down s
 
 ## FAQs 
 
-Q: What timeframe does this assessment cover?
-A: We’ll be doing this assessment yearly, so we’re looking for examples in the past year or so. 
-
-Q: What constitutes the Organization?
-A: The Org will always include both HI Digital Solutions, and any other group we are working with (for example, Home Instead). 
-
-Q: I’m doing a self assessment; how should I answer the question about “do I enjoy working with this person?”
-A: For self assessments, just leave this question blank. 
-
-Q: I have low rankings on some Team or Org questions because of my role.  What should I do?
-A: This will be part of the conversation around personal development; we will work together to determine where you should be focusing, and to find opportunities for you to be involved at the appropriate level.   
-
-Q: The person I’m assessing hasn’t had a chance to participate in hiring.  How should I rank them?
-A: You should rank them based on your experience.  If you know they’ve never interviewed, then it’s fine to say “<Person> <Almost Never> <Brings the right people into the organization> <at the Individual level>,” or to leave the question blank.,
+Q: What timeframe does this assessment cover?  
+A: We’ll be doing this assessment yearly, so we’re looking for examples in the past year or so.  
+  
+Q: What constitutes the Organization?  
+A: The Org will always include both HI Digital Solutions, and any other group we are working with (for example, Home Instead).   
+  
+Q: I’m doing a self assessment; how should I answer the question about “do I enjoy working with this person?”  
+A: For self assessments, just leave this question blank.   
+  
+Q: I have low rankings on some Team or Org questions because of my role.  What should I do?  
+A: This will be part of the conversation around personal development; we will work together to determine where you should be focusing, and to find opportunities for you to be involved at the appropriate level.     
+  
+Q: The person I’m assessing hasn’t had a chance to participate in hiring.  How should I rank them?  
+A: You should rank them based on your experience.  If you know they’ve never interviewed, then it’s fine to say “<Person> <Almost Never> <Brings the right people into the organization> <at the Individual level>,” or to leave the question blank.  
